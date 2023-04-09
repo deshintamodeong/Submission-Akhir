@@ -15,7 +15,7 @@ class SearchBar extends HTMLElement {
     render() {
       this.innerHTML = `
         <div id="search-container" class="search-container">
-          <input placeholder="Search Disney Character" id="searchElement" type="search">
+          <input placeholder="Search pray" id="searchElement" type="search">
           <button id="searchButtonElement" type="submit">Search</button>
         </div>
       `;

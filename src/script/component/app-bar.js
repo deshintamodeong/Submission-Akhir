@@ -28,7 +28,7 @@ class AppBar extends HTMLElement {
           }
         </style>
         
-        <h2>Disney Character Finder</h2>
+        <h2>Daily Prayer Finder</h2>
       `;
     }
   }

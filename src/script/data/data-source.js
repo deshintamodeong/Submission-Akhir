@@ -1,12 +1,12 @@
-import clubs from './clubs.js';
+import prayers from './prayers .js';
 
 class DataSource {
-  static searchClub(keyword) {
+  static searchPray(keyword) {
     return new Promise((resolve, reject) => {
-      const filteredClubs = clubs.filter(club => club.name.toUpperCase().includes(keyword.toUpperCase()));
+      const filteredPrayers = prayers.filter(pray => pray.name.toUpperCase().includes(keyword.toUpperCase()));
       
-      if (filteredClubs.length) {
-        resolve(filteredClubs);
+      if (filteredPrayers.length) {
+        resolve(filteredPrayers);
       } else {
         reject(`${keyword} is not found`);
       }

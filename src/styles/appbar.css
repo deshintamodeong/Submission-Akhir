@@ -1,9 +1,9 @@
 app-bar {
   
   display: block;
-  padding: 10px;
+  padding: 30px;
   width: 100%;
-  background-color: #E74646;
+  background-color: #A4BC92;
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }

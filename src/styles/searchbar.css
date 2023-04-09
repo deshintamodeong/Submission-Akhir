@@ -19,7 +19,7 @@
 
 .search-container > input:focus {
   outline: 0;
-  border-bottom: 2px solid #E74646;
+  border-bottom: 2px solid #C7E9B0;
 }
 
 .search-container > input:focus::placeholder {
@@ -27,7 +27,7 @@
 }
 
 .search-container > input::placeholder {
-  color: #FA9884;
+  color: #C7E9B0;
   font-weight: normal;
 }
 
@@ -36,7 +36,7 @@
   cursor: pointer;
   margin-left: auto;
   padding: 16px;
-  background-color:  #FA9884;
+  background-color:  #B3C99C;
   color: white;
   border: 0;
   text-transform: uppercase;
