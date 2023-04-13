@@ -7,8 +7,8 @@ class PrayItem extends HTMLElement {
     render() {
       this.innerHTML = `
         <div class="pray-info">
-          <h2>${this._pray.name}</h2>
-          <p>${this._pray.description}</p>
+          <h2>${this._pray.doa}</h2>
+          <p>${this._pray.ayat}</p>
         </div>
       `;
     }

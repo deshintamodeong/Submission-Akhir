@@ -12,14 +12,12 @@ class PrayList extends HTMLElement {
   }
  
   render() {
-    this.innerHTML = '';
-    this._prayers.forEach(pray => {
-      const prayItemElement = document.createElement('pray-item');
+    this.innerHTML = "";
+    this._prayers.forEach((pray) => {
+      const prayItemElement = document.createElement("pray-item");
       prayItemElement.pray = pray;
-      
       this.appendChild(prayItemElement);
     });
-  }
+   }
 }
- 
 customElements.define('pray-list', PrayList);
